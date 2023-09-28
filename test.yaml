@@ -4,6 +4,6 @@
   tasks:
     - name: creating file
       file: null
-      path: /ansible.new
+      path: /ansible1.new
       state: touch
       mode: "0755"
