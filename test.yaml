@@ -1,0 +1,9 @@
+---
+- name: test
+-  hosts: all
+  tasks:
+  - name : creating file
+    file:
+     path: /ansible.new
+     state: touch
+     mode: '0755'
